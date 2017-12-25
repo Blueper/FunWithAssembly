@@ -9,3 +9,5 @@ additionally, please add appropriate descriptions to the "Program Reference Shee
 
 # Program Reference Sheet
 hello - a simple hello world program found on tutorialspoint.com (https://www.tutorialspoint.com/assembly_programming/index.htm)
+
+9stars - also found on tutorialspoint, displays 9 stars on screen

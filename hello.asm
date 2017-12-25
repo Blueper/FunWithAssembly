@@ -9,8 +9,10 @@ _start:	            ;tells linker entry point
    int	0x80        ;call kernel
 	
    mov	eax,1       ;system call number (sys_exit)
+	 mov  ebx,0				;set error code to 0 to allow run with "make build"
    int	0x80        ;call kernel
 
 section	.data
 msg db 'Hello, world!', 0xa  ;string to be printed
 len equ $ - msg     ;length of the string
+	
